@@ -50,32 +50,19 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-bottom: 4em;
   text-align: center;
   height: 500px;
+  padding-top: 10em;
  
 }
 
 header h1 {
-  color: white;
+  color: rgb(39,40,34);
   font-size: 2em;
-  margin: 0;
+  margin-top: 2em;
   letter-spacing: 1px;
   opacity: 1;
-  text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
-  position: relative;
-  top: 370px;
   font-weight: 700;
-}
-
-header p {
-  color: #fff;
-  font-size: 1.1em;
-  padding-bottom: 1.3em;
-  padding-top: .5em;
-  opacity: .9;
-  position: relative;
-  top: 360px;
 }
 
 section h1 {
@@ -123,6 +110,17 @@ footer hr {
 
 
 /* ------------------- Grid -------------------*/
+
+.portrait {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    
+}
 
 .container {
   max-width: 50em;
